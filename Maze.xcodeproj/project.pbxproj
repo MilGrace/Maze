@@ -15,6 +15,9 @@
 		F9593BEB284F968D0009A103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9593BE9284F968D0009A103 /* Main.storyboard */; };
 		F9593BED284F96980009A103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9593BEC284F96980009A103 /* Assets.xcassets */; };
 		F9593BF628522CE90009A103 /* mazeLevel2.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9593BF528522CE90009A103 /* mazeLevel2.sks */; };
+		F9593BF928522F570009A103 /* mazeLevel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9593BF828522F570009A103 /* mazeLevel2.swift */; };
+		F9593C00285235B40009A103 /* mazeLevel3.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9593BFF285235B40009A103 /* mazeLevel3.sks */; };
+		F9593C03285236D30009A103 /* mazeLevel3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9593C02285236D30009A103 /* mazeLevel3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		F9593BEC284F96980009A103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9593BEE284F96980009A103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9593BF528522CE90009A103 /* mazeLevel2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = mazeLevel2.sks; sourceTree = "<group>"; };
+		F9593BF828522F570009A103 /* mazeLevel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mazeLevel2.swift; sourceTree = "<group>"; };
+		F9593BFF285235B40009A103 /* mazeLevel3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = mazeLevel3.sks; sourceTree = "<group>"; };
+		F9593C02285236D30009A103 /* mazeLevel3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mazeLevel3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +69,11 @@
 				F9593BDF284F968D0009A103 /* AppDelegate.swift */,
 				F9593BE1284F968D0009A103 /* GameScene.sks */,
 				F9593BF528522CE90009A103 /* mazeLevel2.sks */,
+				F9593BF828522F570009A103 /* mazeLevel2.swift */,
 				F9593BE3284F968D0009A103 /* Actions.sks */,
 				F9593BE5284F968D0009A103 /* GameScene.swift */,
+				F9593BFF285235B40009A103 /* mazeLevel3.sks */,
+				F9593C02285236D30009A103 /* mazeLevel3.swift */,
 				F9593BE7284F968D0009A103 /* GameViewController.swift */,
 				F9593BE9284F968D0009A103 /* Main.storyboard */,
 				F9593BEC284F96980009A103 /* Assets.xcassets */,
@@ -135,6 +144,7 @@
 				F9593BED284F96980009A103 /* Assets.xcassets in Resources */,
 				F9593BE4284F968D0009A103 /* Actions.sks in Resources */,
 				F9593BF628522CE90009A103 /* mazeLevel2.sks in Resources */,
+				F9593C00285235B40009A103 /* mazeLevel3.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +157,8 @@
 			files = (
 				F9593BE6284F968D0009A103 /* GameScene.swift in Sources */,
 				F9593BE8284F968D0009A103 /* GameViewController.swift in Sources */,
+				F9593C03285236D30009A103 /* mazeLevel3.swift in Sources */,
+				F9593BF928522F570009A103 /* mazeLevel2.swift in Sources */,
 				F9593BE0284F968D0009A103 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,16 +1,17 @@
 //
-//  GameScene.swift
+//  mazeLevel3.swift
 //  Maze
 //
-//  Created by  on 6/7/22.
+//  Created by  on 6/9/22.
 //
 
+import Foundation
 import SpriteKit
 import GameplayKit
 
 
 
-class GameScene: SKScene, SKPhysicsContactDelegate
+class mazeLevel3: SKScene, SKPhysicsContactDelegate
 {
     var movableNode : SKNode?
     var mazeNavi = SKSpriteNode()
@@ -34,7 +35,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate
         
         var currentNum = 1
         
-        for i in 1...4
+        for i in 1...6
         {
             var mazeWall = SKSpriteNode()
             mazeWall = childNode(withName: "mazeWall\(currentNum)") as! SKSpriteNode
@@ -66,8 +67,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate
             print("hit1")
 //            mazeNavi.position = CGPoint(x: 371.041, y: 320)
             canMove = false
-            mazeNavi.position = CGPoint(x:371.041, y: 320)
-            let moveNavi = SKAction.move(to: CGPoint(x: 371.041, y: 320) , duration: 0)
+            let moveNavi = SKAction.move(to: CGPoint(x: 240, y: 191) , duration: 0)
             mazeNavi.run(moveNavi)
         }
         if contact.bodyA.categoryBitMask == 2 && contact.bodyB.categoryBitMask == 1
@@ -75,7 +75,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate
             print("hit2")
 //            mazeNavi.position = CGPoint(x: 371.041, y: 320)
             canMove = false
-            let moveNavi = SKAction.move(to: CGPoint(x: 371.041, y: 320) , duration: 0)
+            let moveNavi = SKAction.move(to: CGPoint(x: 240, y: 191) , duration: 0)
             mazeNavi.run(moveNavi)
 
         }
@@ -126,7 +126,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate
         canMove = false
         if let touch = touches.first, movableNode != nil
         {
-            movableNode!.position = CGPoint(x: 371.041, y: 320 )
+            movableNode!.position = CGPoint(x: 240, y: 191 )
             movableNode = nil
         }
     }
