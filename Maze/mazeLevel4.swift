@@ -1,5 +1,5 @@
 //
-//  mazeLevel3.swift
+//  mazeLevel4.swift
 //  Maze
 //
 //  Created by  on 6/9/22.
@@ -11,7 +11,7 @@ import GameplayKit
 
 
 
-class mazeLevel3: SKScene, SKPhysicsContactDelegate
+class mazeLevel4: SKScene, SKPhysicsContactDelegate
 {
     var movableNode : SKNode?
     var mazeNavi = SKSpriteNode()
@@ -35,7 +35,7 @@ class mazeLevel3: SKScene, SKPhysicsContactDelegate
         
         var currentNum = 1
         
-        for i in 1...6
+        for i in 1...9
         {
             var mazeWall = SKSpriteNode()
             mazeWall = childNode(withName: "mazeWall\(currentNum)") as! SKSpriteNode
