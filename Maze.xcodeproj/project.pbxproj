@@ -14,6 +14,7 @@
 		F9593BE8284F968D0009A103 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9593BE7284F968D0009A103 /* GameViewController.swift */; };
 		F9593BEB284F968D0009A103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9593BE9284F968D0009A103 /* Main.storyboard */; };
 		F9593BED284F96980009A103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9593BEC284F96980009A103 /* Assets.xcassets */; };
+		F9593BF628522CE90009A103 /* mazeLevel2.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9593BF528522CE90009A103 /* mazeLevel2.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F9593BEA284F968D0009A103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9593BEC284F96980009A103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9593BEE284F96980009A103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9593BF528522CE90009A103 /* mazeLevel2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = mazeLevel2.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				F9593BDF284F968D0009A103 /* AppDelegate.swift */,
 				F9593BE1284F968D0009A103 /* GameScene.sks */,
+				F9593BF528522CE90009A103 /* mazeLevel2.sks */,
 				F9593BE3284F968D0009A103 /* Actions.sks */,
 				F9593BE5284F968D0009A103 /* GameScene.swift */,
 				F9593BE7284F968D0009A103 /* GameViewController.swift */,
@@ -131,6 +134,7 @@
 				F9593BE2284F968D0009A103 /* GameScene.sks in Resources */,
 				F9593BED284F96980009A103 /* Assets.xcassets in Resources */,
 				F9593BE4284F968D0009A103 /* Actions.sks in Resources */,
+				F9593BF628522CE90009A103 /* mazeLevel2.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
