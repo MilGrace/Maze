@@ -1,8 +1,8 @@
 //
-//  mazeLevel4.swift
+//  mazeLevel5.swift
 //  Maze
 //
-//  Created by  on 6/9/22.
+//  Created by  on 6/10/22.
 //
 
 import Foundation
@@ -11,7 +11,7 @@ import GameplayKit
 
 
 
-class mazeLevel4: SKScene, SKPhysicsContactDelegate
+class mazeLevel5: SKScene, SKPhysicsContactDelegate
 {
     var movableNode : SKNode?
     var mazeNavi = SKSpriteNode()
@@ -35,7 +35,7 @@ class mazeLevel4: SKScene, SKPhysicsContactDelegate
         
         var currentNum = 1
         
-        for i in 1...9
+        for i in 1...2
         {
             var mazeWall = SKSpriteNode()
             mazeWall = childNode(withName: "mazeWall\(currentNum)") as! SKSpriteNode
@@ -67,7 +67,7 @@ class mazeLevel4: SKScene, SKPhysicsContactDelegate
             print("hit1")
 //            mazeNavi.position = CGPoint(x: 371.041, y: 320)
             canMove = false
-            let moveNavi = SKAction.move(to: CGPoint(x: 240, y: 191) , duration: 0)
+            let moveNavi = SKAction.move(to: CGPoint(x: 418, y: 97) , duration: 0)
             mazeNavi.run(moveNavi)
         }
         if contact.bodyA.categoryBitMask == 2 && contact.bodyB.categoryBitMask == 1
@@ -75,23 +75,23 @@ class mazeLevel4: SKScene, SKPhysicsContactDelegate
             print("hit2")
 //            mazeNavi.position = CGPoint(x: 371.041, y: 320)
             canMove = false
-            let moveNavi = SKAction.move(to: CGPoint(x: 240, y: 191) , duration: 0)
+            let moveNavi = SKAction.move(to: CGPoint(x: 418, y: 97) , duration: 0)
             mazeNavi.run(moveNavi)
 
         }
         if contact.bodyA.categoryBitMask == 1 && contact.bodyB.categoryBitMask == 3
         {
-            let mazelevel5 = mazeLevel5(fileNamed: "mazeLevel5")
-            mazelevel5?.scaleMode = .aspectFit
+            let winscreen = winScreen(fileNamed: "winScreen")
+            winscreen?.scaleMode = .aspectFit
             let reveal = SKTransition.flipHorizontal(withDuration: 0)
-            view?.presentScene(mazelevel5!, transition: reveal)
+            view?.presentScene(winscreen!, transition: reveal)
         }
         if contact.bodyA.categoryBitMask == 3 && contact.bodyB.categoryBitMask == 1
         {
-            let mazelevel5 = mazeLevel5(fileNamed: "mazeLevel5")
-            mazelevel5?.scaleMode = .aspectFit
+            let winscreen = winScreen(fileNamed: "winScreen")
+            winscreen?.scaleMode = .aspectFit
             let reveal = SKTransition.flipHorizontal(withDuration: 0)
-            view?.presentScene(mazelevel5!, transition: reveal)
+            view?.presentScene(winscreen!, transition: reveal)
         }
     }
     
@@ -126,7 +126,7 @@ class mazeLevel4: SKScene, SKPhysicsContactDelegate
         canMove = false
         if let touch = touches.first, movableNode != nil
         {
-            movableNode!.position = CGPoint(x: 240, y: 191 )
+            movableNode!.position = CGPoint(x: 418, y: 97 )
             movableNode = nil
         }
     }

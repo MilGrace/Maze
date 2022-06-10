@@ -20,6 +20,10 @@
 		F9593C03285236D30009A103 /* mazeLevel3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9593C02285236D30009A103 /* mazeLevel3.swift */; };
 		F9593C06285237970009A103 /* mazeLevel4.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9593C05285237970009A103 /* mazeLevel4.sks */; };
 		F9593C0928523A780009A103 /* mazeLevel4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9593C0828523A780009A103 /* mazeLevel4.swift */; };
+		F9593C0C28537C4F0009A103 /* mazeLevel5.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9593C0B28537C4F0009A103 /* mazeLevel5.sks */; };
+		F9593C0F28537E010009A103 /* mazeLevel5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9593C0E28537E010009A103 /* mazeLevel5.swift */; };
+		F9593C1228537F0A0009A103 /* winScreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9593C1128537F0A0009A103 /* winScreen.sks */; };
+		F9593C15285381810009A103 /* winScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9593C14285381810009A103 /* winScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		F9593C02285236D30009A103 /* mazeLevel3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mazeLevel3.swift; sourceTree = "<group>"; };
 		F9593C05285237970009A103 /* mazeLevel4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = mazeLevel4.sks; sourceTree = "<group>"; };
 		F9593C0828523A780009A103 /* mazeLevel4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mazeLevel4.swift; sourceTree = "<group>"; };
+		F9593C0B28537C4F0009A103 /* mazeLevel5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = mazeLevel5.sks; sourceTree = "<group>"; };
+		F9593C0E28537E010009A103 /* mazeLevel5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mazeLevel5.swift; sourceTree = "<group>"; };
+		F9593C1128537F0A0009A103 /* winScreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = winScreen.sks; sourceTree = "<group>"; };
+		F9593C14285381810009A103 /* winScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = winScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,10 @@
 				F9593BF828522F570009A103 /* mazeLevel2.swift */,
 				F9593C05285237970009A103 /* mazeLevel4.sks */,
 				F9593C0828523A780009A103 /* mazeLevel4.swift */,
+				F9593C0B28537C4F0009A103 /* mazeLevel5.sks */,
+				F9593C1128537F0A0009A103 /* winScreen.sks */,
+				F9593C0E28537E010009A103 /* mazeLevel5.swift */,
+				F9593C14285381810009A103 /* winScreen.swift */,
 				F9593BE3284F968D0009A103 /* Actions.sks */,
 				F9593BE5284F968D0009A103 /* GameScene.swift */,
 				F9593BFF285235B40009A103 /* mazeLevel3.sks */,
@@ -148,10 +160,12 @@
 				F9593BEB284F968D0009A103 /* Main.storyboard in Resources */,
 				F9593BE2284F968D0009A103 /* GameScene.sks in Resources */,
 				F9593BED284F96980009A103 /* Assets.xcassets in Resources */,
+				F9593C1228537F0A0009A103 /* winScreen.sks in Resources */,
 				F9593BE4284F968D0009A103 /* Actions.sks in Resources */,
 				F9593BF628522CE90009A103 /* mazeLevel2.sks in Resources */,
 				F9593C06285237970009A103 /* mazeLevel4.sks in Resources */,
 				F9593C00285235B40009A103 /* mazeLevel3.sks in Resources */,
+				F9593C0C28537C4F0009A103 /* mazeLevel5.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9593C15285381810009A103 /* winScreen.swift in Sources */,
+				F9593C0F28537E010009A103 /* mazeLevel5.swift in Sources */,
 				F9593BE6284F968D0009A103 /* GameScene.swift in Sources */,
 				F9593BE8284F968D0009A103 /* GameViewController.swift in Sources */,
 				F9593C03285236D30009A103 /* mazeLevel3.swift in Sources */,
